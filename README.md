@@ -2,6 +2,13 @@
 
 Projeto Integrador - Senac/Sp
 
+Diagramas de classe e uso:
+
+![diagramaDeClasse](https://github.com/PauloAnnes/Grupo-09-PI-ADS/assets/117777037/efd76387-728a-4477-9764-346c04677fef)
+![diagramaDeUso](https://github.com/PauloAnnes/Grupo-09-PI-ADS/assets/117777037/5230151e-4494-4b17-98d6-23d1391ae3b6)
+
+
+
 Nosso projeto consiste em um sistema para faculdade com login e páginas de cadastro.
 
 *Protótipos
