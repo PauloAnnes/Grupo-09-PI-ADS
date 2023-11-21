@@ -41,3 +41,6 @@ Protótipo 6:
 Este protótipo é a tela de cadastro de novos fornecedores.
 
 
+
+O site pronto:
+https://leonardodulci.github.io/pi-2entrega/(public)/home/home.html
