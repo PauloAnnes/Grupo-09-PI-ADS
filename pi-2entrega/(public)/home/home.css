@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Pacifico&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../img/fundo.png);
+    background-size: contain;
+    font-family: 'inter';
+    background-position: center bottom;
+    
+}
+
+header{
+    background-color:#FF7628;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+header > h1{
+    font-size:2em ;
+}
+
+nav{
+    width: 160px;
+    height: 90vh;
+    background-color: #FF7628;
+    border: 1px solid black;
+}
+  
+nav > ul > li{
+    padding-top: 10px; 
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+nav > ul > li:hover{
+    transform: translate(1px , 1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    transition: 0.3s border 1s;
+    border: 0px solid black;
+}
+nav > ul > li.login-highlight {
+    transform: translate(1px, 1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    border: 2px solid black;
+}
+nav > ul > li {
+    border: 1px solid black;
+}
+main{
+    display: flex;
+}
+
+main > .form1 , #form1{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 340px;
+    height: 385px;
+    background-image: linear-gradient( to bottom, blue, #8CCBEE);
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+main > .form1 > form > legend{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-family: 'inter';
+}
+
+main > .form1 > form > input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main > .form1 > form > input , #imatricula{
+    display: block;
+    margin: auto;
+}
+
+
+main > .form1 > form > .button{
+    background-color: #3E3BDF;
+    width: 114px;
+    height: 37px;
+    border-radius: 3px;
+}
+
+main > .form1 > form > p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'inter';
+}
+
+main > .form1 > form > a{
+    font-size: 13px;
+}
+
+main > .form1 > form > .cadAluno{
+    margin-right: 20px;
+}
+
+
+
+
+main > #form1 > form > legend{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-family: 'inter';
+}
+
+main > #form1 > form > input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+main > #form1 > form > .button{
+    background-color: #3E3BDF;
+    width: 114px;
+    height: 37px;
+    border-radius: 3px;
+}
+
+main > #form1 > form > p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'inter';
+}
+
+main > #form1 > form > a{
+    font-size: 13px;
+}
+
+main > #form1 > form > .cadAluno{
+    margin-right: 20px;
+}

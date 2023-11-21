@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Pessoa Jurídica</title>
+    <link rel="stylesheet" href="cadPj.css">
+    <link rel="stylesheet" href="../firebase.js">
+
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Pessoa Jurídica</h1>
+        <a href="../home/home.html"> Voltar para página principal</a>
+    </header>
+    <main>
+        <div>
+            <form action="#">
+                <label for="inome">Nome:</label><br>
+                <input type="text" name="nome" id="inome" placeholder="Nome">
+                <br><br>
+                <label for="isobre">Sobrenome:</label><br>
+                <input type="text" name="Sobrenome" id="isobre" placeholder="Sobrenome">
+                <br><br>
+                <label for="inasc">Data de Nascimento:</label><br>
+                <input type="date" name="Nascimento" id="inasc">
+                <br><br>
+                <label for="icnpj">CNPJ:</label><br>
+                <input type="text" name="cnpj" id="icnpj" placeholder="XX.XXX.XXX/0001-XX">
+                <br><br>
+                <label for="iemail">E-mail:</label><br>
+                <input type="email" name="email" id="iemail" placeholder="E-mail">
+                <br>
+                
+            
+                <input type="button" value="Cadastrar" class="button">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

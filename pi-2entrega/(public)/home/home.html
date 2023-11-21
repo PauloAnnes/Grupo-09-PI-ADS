@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../home/home.css">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="../firebase.js">
+</head>
+<body>
+    <header>
+        <h1>Home</h1> 
+    
+    </header>
+    <main>
+    <span>
+       <nav>
+            <ul>
+                <li class="login-highlight"><a href="../home/home.html">Login</a></li>
+                
+                    <br>
+                    <h2>-Cadastro</h2>
+                
+                <li><a href="../pagAluno/pagAluno.html">Aluno</a></li>
+                <li><a href="../pagProf/paginaprof.html">Professor(a)</a></li>
+                <li><a href="../paginaPessoa/pagloginfunc.html">Funcionário(a)</a></li><li><a href="../pagPj/pj.html">Pessoa Jurídica</a></li>
+                <li><a href="../pagFornecedor/pagfornecedor.html">Fornecedor</a></li>
+                
+            </ul>
+        </nav>
+   </span>
+        <span class="form1">
+            <form action="#">
+                    <legend>Alunos <br> Login</legend>
+                    <label for="imatricula"></label>
+                    <input type="number" name="matricula" id="imatricula" placeholder="Matricula/RE">
+                    <br>
+                    <label for="iSenha"></label>
+                    <input type="number" name="senha" id="iSenha" placeholder="Senha">
+                    <br>
+                    <input type="button" value="ENTRAR" class="button">
+                    <br>
+                    <p>Não possui conta?</p>
+                    <br><br>
+                    <a href="../pagAluno/pagAluno.html" class="cadAluno">Cadastro para Alunos</a>             
+                   
+            </form>
+        </span>
+        <span class="form2" id="form1">
+            <form action="#">
+                <legend>Professores <br> Login</legend>
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="E-mail">
+                    <br><br>
+                    <label for="isenha"></label>
+                    <input type="number" name="senha" id="isenha" placeholder="Senha">
+                    <br><br>
+                    <input type="button" value="ENTRAR" class="button">
+                    <br><br>
+                    <p>Não possui conta?</p>
+                    <br><br>
+                     <a href="../pagProf/paginaprof.html">Cadastro para Professores</a>
+        </form>
+        </span>
+    </main>
+    
+</body>
+</html>

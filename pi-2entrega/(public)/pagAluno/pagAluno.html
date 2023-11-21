@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="paginaaluno.css">
+    <link rel="stylesheet" href="../firebase.js">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Alunos</h1>
+        <a href="../home/home.html"> Voltar para página principal</a>
+    </header>
+    <main>
+        <div>
+            <form action="#">
+                <label for="inome">Nome:</label><br>
+                <input type="text" name="nome" id="inome" placeholder="Nome">
+                <br><br>
+                <label for="iemail">E-mail:</label><br>
+                <input type="email" name="email" id="iemail" placeholder="E-mail">
+                <br><br>
+                <label for="imatricula">Matricula:</label><br>
+                <input type="number" name="matricula" id="imatricula" class="imatri" placeholder="Matricula">
+                <br><br>
+                <label for="iturma">Turma:</label><br>
+                <input type="text" name="turma" id="iturma" placeholder="Turma">
+                <br><br>
+                <label for="iturno">Turno:</label><br>
+                <input type="text" name="turno" id="iturno" placeholder="Turno"><br>
+                <br>
+                <input type="button" value="Cadastrar" class="button">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
