@@ -25,6 +25,7 @@ Protótipo 3:
 Este protótipo é a tela de cadastro de novos funcionários.
 
 Protótipo 4:
+
 ![prototipoPF](https://github.com/PauloAnnes/Grupo-09-PI-ADS/assets/117777037/023db022-0bdb-4a7c-aeb6-62ec773c10e6)
 
 Este protótipo é a tela de cadastro de novas pessoas físicas.
